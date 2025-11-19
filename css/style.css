@@ -1,0 +1,35 @@
+h1{
+    color: aqua;
+}
+h2{
+    color: black;
+}
+#p1{
+    color: blue;
+}
+#p2{
+    color: cadetblue;
+}
+.p{
+    color: blueviolet;
+    text-align: right;
+}
+#tb1{
+    border: 0.1cm solid black;
+    border-collapse: collapse;
+    color: red;
+}
+.khoa{
+    text-align: center;
+}
+.ip1{
+    color: blue;
+
+}
+.ip2{
+    color: blanchedalmond;
+    text-shadow: 0.1cm;
+}
+.sel{
+    color: brown;
+}
