@@ -1,0 +1,142 @@
+<htm>
+    <link href="css/style.css" rel="stylesheet"/>
+    <h1>
+        tung
+    </h1>
+    <h2>
+        den
+    </h2>
+    <p id="p1">
+        ngoi dau mong
+    </p>
+    <p id="p2">
+        ko biet lm j
+    </p>
+    
+    <p class="p">
+        ko buon ngu
+    </p>
+    <p class="p">
+        mat qua di
+    </p>
+
+    <table id="tb1">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Họ và tên
+                </th>
+                <th>
+                    Điểm
+                </th>
+                <th>
+                    Xếp loại
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="khoa" colspan="4">
+                    Khóa A
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    Trần Tiến Tài
+                </td>
+                <td>
+                    7
+                </td>
+                <td rowspan="2">
+                    Khá
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Phạm Mạnh Khoa
+                </td>
+                <td>
+                    8
+                </td>
+            </tr>
+            <tr>
+                <td class="khoa" colspan="4">
+                    Khóa B
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    Trần Văn Hưng
+                </td>
+                <td>
+                    5
+                </td>
+                <td rowspan="2">
+                    Trung bình
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    Đỗ Đức Thành
+                </td>
+                <td>
+                    10
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    TỔNG CỘNG
+                </td>
+                <td>
+                    7.5
+                </td>
+                <td>
+                    Khá
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form>
+        <h1>
+            Đăng ký tài khoản !
+        </h1>
+        <label>
+            Nhập thông tin đăng ký
+        </label>
+        <br>
+        <input class="ip1" type="text" name="ten" placeholder="Nhập tên">
+        <input class="ip1" type="text" name="ho" placeholder="Nhập ho đệm">
+        <br>
+        <input class="ip2" type="text" name="email" placeholder="Địa chỉ email">
+        <input class="ip2" type="text" name="sdt" placeholder="Số điện thoại">
+        <br>
+        <select class="sel" name="thanh_pho">
+            <option value="" disabled selected>Thành Phố</option>
+            <option value="hn"> Hà nội</option> 
+        </select>
+        <select class="sel" name="tinh">
+            <option value="" disabled selected>Tỉnh</option>
+            <option value="BG"> Bắc Giang</option> 
+        </select>
+        <br>
+        <textarea name="ghichu" rows="4" cols="4"></textarea>
+    </form>
+</htm>
