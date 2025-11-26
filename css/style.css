@@ -16,20 +16,32 @@ h2{
 }
 #tb1{
     border: 0.1cm solid black;
-    border-collapse: collapse;
     color: red;
+    border-radius: 14px;
 }
 .khoa{
     text-align: center;
 }
+form{
+    width: 450px;
+    background: white;
+    margin: auto;
+    padding: 25px 30px;
+    border-radius: 14px;
+    box-shadow: 14px;
+}
 .ip1{
     color: blue;
-
+    padding: 9px 10px;
 }
 .ip2{
     color: blanchedalmond;
     text-shadow: 0.1cm;
+    padding: 9px 10px;
 }
 .sel{
     color: brown;
+}
+.ghichu{
+    font-size: 40px;
 }
