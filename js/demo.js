@@ -11,10 +11,13 @@
 // document.getElementById("btnTest").onclick = function(){
 //     alert("kich hoạt");
 // };
-                document.getElementById("form1").addEventListener("submit",function(event){
-                    let name = document.getElementById("name").value;
-                    if(name === ""){
-                        alert("Vui long nhập tên");
-                        event.preventDefault();
-                    }
-                });
+document.getElementById("form1").addEventListener("submit",function(event){
+    let name = document.getElementById("name").value;
+        if(name === ""){
+            alert("Vui long nhập tên");
+            // event.preventDefault();
+        }
+        else{
+            alert(name);
+        }
+});
