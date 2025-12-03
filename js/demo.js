@@ -15,7 +15,7 @@ document.getElementById("form1").addEventListener("submit",function(event){
     let name = document.getElementById("name").value;
         if(name === ""){
             alert("Vui long nhập tên");
-            // event.preventDefault();
+            event.preventDefault();
         }
         else{
             alert(name);
